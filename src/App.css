@@ -112,7 +112,7 @@ button{
  }
  .menu_list{
   position: absolute;
-        background-color:#f1f3f6;
+        background-color:burlywood;
         left: 0 !important;
         transition: all .3s;
         z-index: 100;
@@ -121,7 +121,7 @@ button{
         display: block;
         margin-top: 50px;
         display: flex;
-        color: black;
+        color: white;
         flex-direction: column;
  }
  .humburger_cross {
