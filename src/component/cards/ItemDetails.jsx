@@ -7,7 +7,6 @@ import { DataContext } from '../../context/Dataprovider';
 
 const BoxStyle= styled(Box)({
   marginTop:"1rem",
-  // backgroundColor:"gary",
   width:"90%",
   margin:"auto",
   display:"flex",
@@ -17,8 +16,7 @@ const BoxStyle= styled(Box)({
 const BoxPdcts= styled(Box)({
   display:"flex",
   gap:"1rem",
-  backgroundColor:"skyblue"
-
+ 
 })
 const BoxDeatils= styled(Box)({
   // marginTop:"1rem",
@@ -67,11 +65,7 @@ const ItemDetails = () => {
   }, [id]);
 //add to cart
 const handleAddToCart = () => {
-  // Add the product to the cart
   addToCart([...cart, { ...productDetails, quantity: 1 }]);
-  // console.log("Item added to cart:", productDetails);
-  // Increment the count
- 
 };
 
 
