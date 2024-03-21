@@ -90,7 +90,7 @@ button{
 @media (max-width:500px) {
  .box_products{
   padding: .5rem !important;
-  background-color: blueviolet !important;
+  /* background-color: blueviolet !important; */
  }
  .box_details{
   background-color: green !important;
@@ -99,12 +99,12 @@ button{
 
  }
  .img_more{
-  background-color: blue !important;
-  /* position: static !important; */
+  /* background-color: blue !important; */
+
   display: flex !important;
   flex-wrap: wrap;
   flex-direction: row !important;
-  /* display: none !important; */
+
  }
  .box_footer{
   background-color: aqua !important;
@@ -143,11 +143,9 @@ button{
   transition: all 5s;
   z-index: 1000;
   padding-left: 30px;
-  /* background-color: blue !important; */
 }
 .login_search{
   width: 100vw !important;
-  /* background-color: blue !important; */
   display: flex;
   
 }
